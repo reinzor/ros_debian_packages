@@ -1,0 +1,36 @@
+Package: ros-iron-debian-example-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 0-2024.04.03.07.59
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-iron-debian-example
+Maintainer: rein <rein.appeldoorn@nobleo.nl>
+Installed-Size: 18
+Depends: ros-iron-debian-example (= 0-2024.04.03.07.59)
+Filename: ./ros-iron-debian-example-dbgsym_0-2024.04.03.07.59_amd64.ddeb
+Size: 4856
+MD5sum: c633d158527af164174750ca94445e2e
+SHA1: 4fbbc8418e9646953d57f9df6902bdcdb78e4d8a
+SHA256: acc2a510069a526bcd750f0b529b38f81f76193dc614d90f9bbe5bf54102bb46
+SHA512: eb54e71015dc811fc8af2bcade33ab37d2cc5c7d9cd1f90c9c39109a7b68ac1b3d5d4a53732ebc52144224c19e852c112e6b789173fd2522b6b5d11a8fc8fdc7
+Description: debug symbols for ros-iron-debian-example
+Build-Ids: 01df5863e7bf6f4530e7c6aac939210752d91db5
+
+Package: ros-iron-debian-example
+Architecture: amd64
+Version: 0-2024.04.03.07.59
+Priority: optional
+Section: misc
+Maintainer: rein <rein.appeldoorn@nobleo.nl>
+Installed-Size: 57
+Depends: libc6 (>= 2.34)
+Filename: ./ros-iron-debian-example_0-2024.04.03.07.59_amd64.deb
+Size: 6326
+MD5sum: 7cc5731572ceff6005dd15ceeb70c3ec
+SHA1: 93d68eae178a5771ef4ebbc5340c246166052ab1
+SHA256: a813f7c629c579c6d06ed049791ecf5c26dacd0ac79a89a49316ab6b348336c2
+SHA512: 905ddd7e654125cd8dbc3e494f8cf256ce401637f0c753c02ab92e59e0372ad3331df8d1617a6a1387cd2953764486272bf235b6379cc54b38d50a92b58326a8
+Description: TODO: Package description
+
