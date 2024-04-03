@@ -1,0 +1,5 @@
+repositories:
+  debian_example:
+    type: git
+    url: https://github.com/reinzor/debian_example
+    version: 86f78757dd76b0642d07c9ff4191aa6503e8eef7

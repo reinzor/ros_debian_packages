@@ -1,0 +1,36 @@
+Package: ros-humble-debian-example-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 0-2024.04.03.07.57
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-humble-debian-example
+Maintainer: rein <rein.appeldoorn@nobleo.nl>
+Installed-Size: 18
+Depends: ros-humble-debian-example (= 0-2024.04.03.07.57)
+Filename: ./ros-humble-debian-example-dbgsym_0-2024.04.03.07.57_amd64.ddeb
+Size: 4866
+MD5sum: 2ebeb74b35f3cf606ec6a7d012ac5312
+SHA1: 2edf7bfe5987476663ff306f8b33a826929b4954
+SHA256: fc8710d03e5b58d9ea61282e43f640dcc12c6bcb8596437ffa675dcb757edf8d
+SHA512: 4d5cbe4926ea9dcdf3a198a201fac16ef336e9a9b93309cd3dde4ef3fd022aecaf32e72d9f71fdf4ace31b026a0c9728684768a91472939f425c291164f6db4a
+Description: debug symbols for ros-humble-debian-example
+Build-Ids: ffa93273712d6262e29194b1ba1792c5b6985d8e
+
+Package: ros-humble-debian-example
+Architecture: amd64
+Version: 0-2024.04.03.07.57
+Priority: optional
+Section: misc
+Maintainer: rein <rein.appeldoorn@nobleo.nl>
+Installed-Size: 57
+Depends: libc6 (>= 2.34)
+Filename: ./ros-humble-debian-example_0-2024.04.03.07.57_amd64.deb
+Size: 6350
+MD5sum: ab71f4d6a08d3338a4fe746301ee44e2
+SHA1: b724350b7adf90d9f607f061b0874276435af5d3
+SHA256: dca2cb68f2f6a9941597f1dbe0a70ff1809ab5c1eda2ad9e4fa3cb2fe5f675e1
+SHA512: 025f6d6d64898830cd28eb63412da5579c2adf1137273b9d89673c89ba2524e7f0642ead8d23ba4c70a57ca301acc36500a81cd14c22cb8166c71fa952312026
+Description: TODO: Package description
+
