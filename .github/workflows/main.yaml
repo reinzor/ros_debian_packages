@@ -11,3 +11,8 @@ jobs:
           ROS_DISTRO: humble
           DEB_DISTRO: jammy
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - uses: jspricke/ros-deb-builder-action@main
+        with:
+          ROS_DISTRO: iron
+          DEB_DISTRO: jammy
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
