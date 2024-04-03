@@ -11,4 +11,3 @@ jobs:
           ROS_DISTRO: humble
           DEB_DISTRO: jammy
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          REPOS_FILE: https://raw.githubusercontent.com/reinzor/ros_debian_packages/main/packages.repos
